@@ -86,3 +86,19 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 70px;
+  }
+  .project-col {
+    column-count: 1;
+    column-width: 100px;
+  }
+  .primary-link {
+    font-size: small;
+  }
+  .small-photo {
+    display: none;
+  }
+}
