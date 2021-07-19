@@ -87,16 +87,25 @@ p {
   text-decoration: underline;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 900px) {
   h1 {
-    font-size: 70px;
+    font-size: 50px;
   }
-  .project-col {
-    column-count: 1;
-    column-width: 100px;
+  h2 {
+    font-size: 32px;
+    text-align: center;
   }
-  .primary-link {
-    font-size: small;
+  h3 {
+    font-size: 24px;
+  }
+  .project-description {
+    text-align: center;
+  }
+
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 30px;
   }
   .small-photo {
     display: none;
